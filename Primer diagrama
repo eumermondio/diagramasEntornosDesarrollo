@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T08:02:17.598Z" agent="5.0 (X11)" etag="bPrA1DP7Q3N5-SBMPRcC" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-06T08:06:01.146Z" agent="5.0 (X11)" etag="WzqjBRW9lomTLznwdz-O" version="15.4.3" type="github">
   <diagram id="6vuxb5UMldPc_PuswIyQ" name="Page-1">
     <mxGraphModel dx="868" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,6 +206,17 @@
             <Array as="points">
               <mxPoint x="640" y="690" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-46" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontStyle=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="800" as="sourcePoint" />
+            <mxPoint x="100" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-47" value="Pedido abastecimiento" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="cu5efwPlUFjsv_QkhEkp-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
