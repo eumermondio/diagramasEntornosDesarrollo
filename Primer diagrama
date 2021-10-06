@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T07:52:45.087Z" agent="5.0 (X11)" etag="gDsYW_GezeCJkJh5Vumm" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-06T07:56:06.925Z" agent="5.0 (X11)" etag="gehd0GYfkatFEvHRe1oQ" version="15.4.3" type="github">
   <diagram id="6vuxb5UMldPc_PuswIyQ" name="Page-1">
     <mxGraphModel dx="868" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,6 +107,50 @@
               <mxPoint x="380" y="280" />
               <mxPoint x="380" y="280" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-28" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="505" as="sourcePoint" />
+            <mxPoint x="270" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-29" value="Albarán" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="cu5efwPlUFjsv_QkhEkp-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-30" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontStyle=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="310" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-31" value="Pedido de compra" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="cu5efwPlUFjsv_QkhEkp-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-32" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="570" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-33" value="Factura" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="cu5efwPlUFjsv_QkhEkp-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-34" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="500" as="sourcePoint" />
+            <mxPoint x="530" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-35" value="Pedido" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="cu5efwPlUFjsv_QkhEkp-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
