@@ -1,1 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T07:39:37.934Z" agent="5.0 (X11)" version="15.4.3" etag="SDoEZGAQFw4q2vq9DZ_h" type="github"><diagram id="6vuxb5UMldPc_PuswIyQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-06T07:44:44.821Z" agent="5.0 (X11)" etag="aJWif-Hp82luJRsxY4-w" version="15.4.3" type="github">
+  <diagram id="6vuxb5UMldPc_PuswIyQ" name="Page-1">
+    <mxGraphModel dx="868" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-1" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-2" value="Proveedor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-3" value="Sistema gestión de almacén" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-4" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="cu5efwPlUFjsv_QkhEkp-1" target="cu5efwPlUFjsv_QkhEkp-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="79.5" as="sourcePoint" />
+            <mxPoint x="320" y="79.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-5" value="Pedido de compra" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="cu5efwPlUFjsv_QkhEkp-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-6" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="80" as="sourcePoint" />
+            <mxPoint x="620" y="85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu5efwPlUFjsv_QkhEkp-7" value="Pedido de abastecimiento" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="cu5efwPlUFjsv_QkhEkp-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
