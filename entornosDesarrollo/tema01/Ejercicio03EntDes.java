@@ -1,21 +1,22 @@
+package tema01;
 
 
 import java.util.Scanner;
 
-public class Ej02EntDes {
+public class Ejercicio03EntDes {
 
 	public static void main(String[] args) {
 
-		int num, suma = 0;
+		int num, suma = 0, cont = 0, cont2 = 1;
 		Scanner sc = new Scanner(System.in);
 		do {
-			System.out.println("Dame un número");
+			System.out.println("Dime el número " + cont2++);
 			num = sc.nextInt();
 			suma += num;
-		}while (num != 0); 
+			cont++;
+		} while (cont < 10);
 
 		System.out.println("La suma es: " + suma);
-		
 		sc.close();
 	}
 
