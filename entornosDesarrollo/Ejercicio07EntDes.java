@@ -1,8 +1,8 @@
-package capitulo03.bloque02;
+
 
 import java.util.Scanner;
 
-public class Ejercicio04EntDes {
+public class Ejercicio07EntDes {
 
 	public static void main(String[] args) {
 
