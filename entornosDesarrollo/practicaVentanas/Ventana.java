@@ -20,6 +20,7 @@ import javax.swing.JTextArea;
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JRadioButton;
+import javax.swing.JCheckBox;
 
 public class Ventana extends JFrame {
 
@@ -36,6 +37,7 @@ public class Ventana extends JFrame {
 	private final ButtonGroup buttonGroup_2 = new ButtonGroup();
 	private JRadioButton rdbtnNewRadioButton;
 	private JRadioButton rdbtnNewRadioButton_1;
+	private JCheckBox chckbxNewCheckBox;
 
 	/**
 	 * Launch the application.
@@ -121,6 +123,9 @@ public class Ventana extends JFrame {
 						textArea.append("Se ha pulsado: " + rdbtnNewRadioButton_1.getText());
 					}
 				}
+				if (chckbxNewCheckBox.isSelected()) {
+					textArea.append("Se aplica check");
+				}
 
 			}
 		});
@@ -142,5 +147,13 @@ public class Ventana extends JFrame {
 		buttonGroup_2.add(rdbtnNewRadioButton_1);
 		rdbtnNewRadioButton_1.setBounds(260, 43, 109, 23);
 		contentPane.add(rdbtnNewRadioButton_1);
+
+		chckbxNewCheckBox = new JCheckBox("New check box");
+		chckbxNewCheckBox.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		chckbxNewCheckBox.setBounds(306, 70, 97, 23);
+		contentPane.add(chckbxNewCheckBox);
 	}
 }
